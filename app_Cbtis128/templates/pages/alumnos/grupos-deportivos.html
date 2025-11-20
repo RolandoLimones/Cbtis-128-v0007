@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/alumnos/grupos-Deportivos.css' %}">
+
+<main class="grupos-container">
+    <h2>GRUPOS DEPORTIVOS</h2>
+    
+    <div class="grid">
+        <!-- VOLEIBOL -->
+        <div class="card">
+           <img src="https://imgs.search.brave.com/SPtL7Nc4vdXfxApOjwJBNjlW5hlJJp9b-jvOLNE-rbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzEv/MDQ5LzYxMS9zbWFs/bC9zdHVkZW50cy1v/dXRzaWRlLXNpdHRp/bmctb24tc3RlcHMt/cGhvdG8uanBn"> 
+            <div class="overlay">
+                <div class="tags">
+                    <span class="tag">Deporte</span>
+                    <span class="tag">Equipo</span>
+                </div>
+                <h3 class="titulo">Voleibol</h3>
+                <p class="descripcion">
+                    Lunes, miércoles y viernes → 16:00-18:00<br>
+                    Profesora: Mtra. Karla Ramírez
+                </p>
+            </div>
+        </div>
+
+        <!-- FÚTBOL -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/SPtL7Nc4vdXfxApOjwJBNjlW5hlJJp9b-jvOLNE-rbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzEv/MDQ5LzYxMS9zbWFs/bC9zdHVkZW50cy1v/dXRzaWRlLXNpdHRp/bmctb24tc3RlcHMt/cGhvdG8uanBn"> 
+            <div class="overlay">
+                <div class="tags">
+                    <span class="tag">Deporte</span>
+                    <span class="tag">Campo</span>
+                </div>
+                <h3 class="titulo">Fútbol</h3>
+                <p class="descripcion">
+                    Martes y jueves → 16:00-18:30<br>
+                    Entrenador: Ing. Juan Carlos Morales<br>
+                    Equipo Halcones 128
+                </p>
+            </div>
+        </div>
+
+        <!-- FÚTBOL AMERICANO -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/SPtL7Nc4vdXfxApOjwJBNjlW5hlJJp9b-jvOLNE-rbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzEv/MDQ5LzYxMS9zbWFs/bC9zdHVkZW50cy1v/dXRzaWRlLXNpdHRp/bmctb24tc3RlcHMt/cGhvdG8uanBn" alt="Vision imagen" class="logo-conocenos"> 
+            <div class="overlay">
+                <div class="tags">
+                    <span class="tag">Deporte</span>
+                    <span class="tag">Contacto</span>
+                </div>
+                <h3 class="titulo">Fútbol Americano</h3>
+                <p class="descripcion">
+                    Lunes a jueves → 16:00-19:00<br>
+                    Coach: Luis Fernando Chávez
+                </p>
+            </div>
+        </div>
+
+        <!-- BÉISBOL -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/SPtL7Nc4vdXfxApOjwJBNjlW5hlJJp9b-jvOLNE-rbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzEv/MDQ5LzYxMS9zbWFs/bC9zdHVkZW50cy1v/dXRzaWRlLXNpdHRp/bmctb24tc3RlcHMt/cGhvdG8uanBn" alt="Vision imagen" class="logo-conocenos"> 
+            <div class="overlay">
+                <div class="tags">
+                    <span class="tag">Deporte</span>
+                    <span class="tag">Diamante</span>
+                </div>
+                <h3 class="titulo">Béisbol</h3>
+                <p class="descripcion">
+                    Miércoles y viernes → 16:00-18:00<br>
+                    Entrenador: Prof. Roberto Mendoza
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
